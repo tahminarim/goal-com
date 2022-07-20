@@ -1,0 +1,129 @@
+.container {
+    display: flex;
+    background-color: rgb(46, 43, 43);
+
+    border-radius: 50px;
+    margin-top: 30px;
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-bottom: 20px;
+    width: 80%;
+    height: 50%;
+}
+
+.heading {
+    height: 100%;
+    width: 100%;
+    margin-left: 20px;
+}
+
+.heading h1 {
+    font-family: 'Kanit', sans-serif;
+    color: aliceblue;
+    font-size: 95px;
+    margin-left: 50px;
+}
+
+.heading p {
+    color: white;
+    font-size: 20px;
+    margin-left: 50px;
+
+}
+
+.heading button {
+    background-color: rgb(211, 7, 7);
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-left: 50px;
+    height: 80%;
+    width: 30%;
+
+}
+
+.fa-solid,
+.fa-greater-than {
+    font-size: 20px;
+}
+
+.banner {
+    width: 100%;
+    height: 100%;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.second-container {
+    display: flex;
+}
+
+/* ---------------------
+lives style 
+----------------------*/
+.all-lives {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.lives {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    grid-column-gap: 24px;
+}
+
+.live .live-banner img {
+    width: 224px;
+    height: 104px;
+}
+
+.live-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* footer style */
+
+footer {
+    text-align: center;
+    background-color: black;
+    height: 400px;
+
+}
+
+footer h1 {
+    color: aliceblue;
+    font-size: 50px;
+}
+
+footer>nav {
+    align-content: center;
+}
+
+footer>nav>ul {
+
+    display: flex;
+}
+
+footer>nav li {
+    list-style: none;
+    margin-right: 20px;
+    padding: 0px 10px;
+}
+
+
+footer>nav li a {
+    text-decoration: none;
+    color: white;
+}
+
+footer>nav li:hover {
+    background-color: lightgrey;
+}
