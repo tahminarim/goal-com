@@ -40,7 +40,13 @@
     margin-left: 80px;
     height: 4em;
     width: 8em;
+    transition: width 2s, height 4s;
 
+}
+
+.heading button:hover {
+    width: 200px;
+    height: 200px;
 }
 
 .fa-solid,
@@ -192,7 +198,7 @@ upcoming matches  style
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 
-    grid-gap:20px;
+    grid-gap: 20px;
     margin-left: 80px;
     margin-right: 0px;
 
