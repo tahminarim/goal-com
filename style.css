@@ -252,23 +252,90 @@ media queries
 
 @media only screen and (max-width:688px) {
     .container {
-        width: 100%;
+        flex-direction: column;
+        width: 500px;
+        height: 60em;
+        margin-left: 4px;
+        background-color: rgb(35, 35, 41);
+        row-gap: 0.4em;
+
+
+    }
+
+    .container h1 {
+        text-align: center;
+        margin-left: 4px;
+
+        margin-right: 20px;
+        font-size: 40px;
+    }
+
+    .container p {
+        text-align: center;
+        margin-left: 4px;
+        margin-right: 50px;
+        font-size: 20px;
+
+    }
+
+    .container button {
+        margin-top: 2em;
+        margin-left: 7em;
+        align-content: center;
+    }
+
+
+    .banner {
+        width: 90%;
     }
 
     .second-container {
-        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 4em;
+        margin-bottom: 10em;
+
     }
 
-    .matches,
-    .lives {
+    .buttons {
+        display: block;
+        gap: 20px;
+        background-color: white;
+        width: 25em;
+        height: 15em;
+        margin-left: 1px;
+    }
+
+
+
+
+    .all-lives,
+    .all-matches {
         /* background-color: red; */
         grid-template-columns: repeat(1, 1fr);
+        margin-top: 10em;
 
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 90%;
     }
 
     .match,
     .live {
         flex-direction: column;
+    }
+
+    .footer {
+        width: 25em;
+        margin-left: 2em;
+    }
+
+    footer>nav>ul {
+        font-weight: 900;
+        font-size: 1.6em;
+        display: grid;
+        align-items: center;
+        gap: 10px;
     }
 
 
